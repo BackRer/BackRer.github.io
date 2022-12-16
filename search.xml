@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>适配视频测试</title>
+      <link href="/posts/4a17b156.html"/>
+      <url>/posts/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<div align="center" class="aspect-ratio">  <iframe    src="https://www.bilibili.com/video/BV1NG411T7YP?t=4.0"    scrolling="no"    border="0"    frameborder="no"    framespacing="0"    high_quality="1"    danmaku="1"    allowfullscreen="true"  ></iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Text </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Text </tag>
+            
+            <tag> Hello </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MC签到|商店教程</title>
+      <link href="/posts/4f25866d.html"/>
+      <url>/posts/4f25866d.html</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>名称</th><th align="right">语言</th><th align="center">日志</th><th align="left">版本</th><th align="left">最后更新时间</th></tr></thead><tbody><tr><td>机器人插件与服务器插件配置教程</td><td align="right">Java,E</td><td align="center">教程教程</td><td align="left">无</td><td align="left">2022-8-2</td></tr><tr><td>机器人插件与服务器插件配置教程</td><td align="right">Java,E</td><td align="center">更新教程</td><td align="left">无</td><td align="left">2022-8-4</td></tr></tbody></table><h3 id="关于Rcon的配置"><a href="#关于Rcon的配置" class="headerlink" title="关于Rcon的配置"></a>关于Rcon的配置</h3><p>可以去看我的但是写的不是很详细:<a href="https://love.backre.cn/2022/07/28/McRcon/">点我直达!</a><br>也可以查看别人写的教程这是我在网上找到的:<a href="https://www.iecraft.com/news/rcon.html">点我直达!</a></p><hr><h3 id="如果安装？"><a href="#如果安装？" class="headerlink" title="如果安装？"></a>如果安装？</h3><p>(这么简单的事情还要我说吗 挨打.jpg)<br>在我发布的贴子中下载好文件<a href="https://f.xiaolz.cn/thread-288-1-1.html">点击进入</a><br>RconQQShop放在服务器的插件文件&#x2F;plugins<br>小栗子如果下载安装插件:<a href="https://docs.xiaolz.cn/qianyan/xiaolizi.html">https://docs.xiaolz.cn/qianyan/xiaolizi.html</a><br>签到商店.dll加在小栗子机器人框架当中</p><hr><h3 id="服务器设置"><a href="#服务器设置" class="headerlink" title="服务器设置"></a>服务器设置</h3><p><img src="/img/XiaoLizi/0.png"><br>基础设置:<br>这里的内容就按照第一步的那些教程填写即可,rcon端口密码服务器ip这几个。<br>开关设置:<br>这个功能是管理所有指令的(包括以.为开头的指令)<br>都随可以使用rcon也就是在qq内使用指令控制服务器后台,默认主人可以使用,下面那些是可以额外附加的.以*号分开qq号<br><img src="/img/XiaoLizi/7.png"></p><hr><h3 id="绑定设置"><a href="#绑定设置" class="headerlink" title="绑定设置"></a>绑定设置</h3><p>更新后<code>.bind id</code>更改为<code>.bind id code</code>码<br>要进行与游戏id的code码验证.<br>玩家输入<code>/myjoin bind</code>来进行获取自己的code码<br>然后再到私聊与机器人进行绑定账号例如:<code>.bind BackRer kdes</code><br>将会完成绑定.</p><p>如果玩家code码泄露了,可以使用<code>/myjoin binds</code>强制更新自己的code码然后重新绑定.<br>管理也可以使用指令进行修改某个玩家或者自己的code码:<code>/rqs bind [id] [code]码</code></p><hr><h3 id="关于查服的变量"><a href="#关于查服的变量" class="headerlink" title="关于查服的变量"></a>关于查服的变量</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">[连接]  获取与服务器是否连接成功,返回信息为真,假</span><br><span class="line">[失败原因]   如果与服务器连接失败,会返回失败的原因,如果成功返回则是空</span><br><span class="line">[服务端名]   获取服务端的名称</span><br><span class="line">[协议版本]   服务器的协议版本</span><br><span class="line">[最大人数]   获取服务器最大人数</span><br><span class="line">[在线人数]   获取服务器当前在线人数</span><br><span class="line">[MOTD]      获取服务器的MOTD描述信息</span><br><span class="line">[游戏延迟]   获取服务器的当前延迟</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+          <category> MC </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> MC </tag>
+            
+            <tag> 外置 </tag>
+            
+            <tag> E </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何配合Rcon+E连接服务器后台</title>
+      <link href="/posts/34d95856.html"/>
+      <url>/posts/34d95856.html</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>名称</th><th align="right">语言</th><th align="center">日志</th><th align="left">版本</th><th align="left">最后更新时间</th></tr></thead><tbody><tr><td>Rcon</td><td align="right">Java,E</td><td align="center">教程教程</td><td align="left">无</td><td align="left">2022-7-28</td></tr></tbody></table><h3 id="什么是Rcon？"><a href="#什么是Rcon？" class="headerlink" title="-什么是Rcon？"></a>-什么是Rcon？</h3><p>来源于网络介绍:<code>Rcon是一种协议,是被Source专用服务器使用的一个基于TCP/IP协议的通信协议,可以通过rcon向服务器发送控制台命令,rcon的作用最常见的用法是让服主在不接触服务器的情况下控制自己的游戏服务器.为了让命令能被接受，建立的连接必须先通过服务器的rcon密码验证.</code></p><h1 id="简单来说就是可以通过外置的方法连接到服务器后台进行执行命令"><a href="#简单来说就是可以通过外置的方法连接到服务器后台进行执行命令" class="headerlink" title="简单来说就是可以通过外置的方法连接到服务器后台进行执行命令."></a>简单来说就是可以通过外置的方法连接到服务器后台进行执行命令.</h1><hr><h3 id="在mc服务器中开启rcon"><a href="#在mc服务器中开启rcon" class="headerlink" title="-在mc服务器中开启rcon"></a>-在mc服务器中开启rcon</h3><p>在服务器目录中找到<code>server.properties</code>文件打开.</p><ol><li>找到<code>enable-rcon=false</code>将false更改为true</li><li>查看<code>rcon.port=25575</code>是否存在,如果不存在则添加进去,这里是rcon的端口tcp协议.</li><li>查看server.properties内是否有<code>rcon.password=</code>如果没有就创建一行这个,然后在这里设置一下密码例如:<code>rcon.password=123456789</code><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">rcon.password=123456789</span><br><span class="line">rcon.port=25575</span><br><span class="line">enable-rcon=true</span><br></pre></td></tr></table></figure></li></ol><h3 id="如何连接到Rcon"><a href="#如何连接到Rcon" class="headerlink" title="-如何连接到Rcon"></a>-如何连接到Rcon</h3><p><code>先将上一步设置好,然后开启服务器.</code><br>这里要用到一个事先写好的模块,模块下载下载:<br>链接: <a href="https://pan.baidu.com/s/18mahCHIu_YlA4hhWEDxGww">https://pan.baidu.com/s/18mahCHIu_YlA4hhWEDxGww</a> 提取码: jemf 复制这段内容后打开百度网盘手机App，操作更方便哦<br>添加好后在E新建程序,写如下代码:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">调试输出 (RCON_连接 (“127.0.0.1”, 25575, “123456789”))</span><br></pre></td></tr></table></figure><p><img src="/./img/Rcon/1.png"></p><ol><li>这里<code>127.0.0.1</code>对应了你的服务器ip</li><li><code>25575</code>对应了rcon.port</li><li><code>123456789</code>对应了rcon.password<br>运行会发现,出现了数字1就代表连接成功<br><img src="/./img/Rcon/2.png"><br><code>如果这里显示其他数字那么就代表出现了问题.</code><br><code>-1是密码错误,-2无法连接,-3意外错误,0模块错误</code><br>服务器后台也会输出日志<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Rcon connection from: 连接的ip</span><br></pre></td></tr></table></figure>接下来是向服务器发送指令：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">调试输出 (RCON_发送 (“help”))</span><br><span class="line">RCON_断开 ()</span><br></pre></td></tr></table></figure><img src="/img/Rcon/3.png"><br>这样就可以向服务器发送命令了,<code>并且RCON_发送</code>会返回一个文本型的数据为指令输出的数据.</li></ol><hr><h3 id="活用Rcon"><a href="#活用Rcon" class="headerlink" title="-活用Rcon"></a>-活用Rcon</h3><p>如果灵活的运用rcon,例如你可以在某qq机器人框架写一个插件,这样就可以在qq聊天的方式直接控制控制台.制作个qq商店之类的.<br>也可以配合我的另一篇文章中的插件,在另一篇文章.<br><a href="https://love.backre.cn/2022/07/27/JoinGiftItem/">点我直达</a>去灵活的使用.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+          <category> MC </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> MC </tag>
+            
+            <tag> 外置 </tag>
+            
+            <tag> E </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JoinGiftItem插件</title>
+      <link href="/posts/c73577a4.html"/>
+      <url>/posts/c73577a4.html</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>插件名称</th><th align="right">语言</th><th align="center">日志</th><th align="left">版本</th><th align="left">最后更新时间</th></tr></thead><tbody><tr><td>JoinGiftItem</td><td align="right">Java</td><td align="center">插件诞生</td><td align="left">1.0V</td><td align="left">2022-7-27</td></tr><tr><td>JoinGiftItem</td><td align="right">Java</td><td align="center">修复bug</td><td align="left">1.0V</td><td align="left">2022-8-2</td></tr><tr><td>JoinGiftItem</td><td align="right">Java</td><td align="center">新增功能</td><td align="left">1.1V</td><td align="left">2022-8-4</td></tr></tbody></table><table><thead><tr><th align="right">是否开源</th><th align="right">开源地址</th></tr></thead><tbody><tr><td align="right">是,代码没更新</td><td align="right"><a href="https://github.com/BackRer/QQPlugins">https://github.com/BackRer/QQPlugins</a></td></tr></tbody></table><table><thead><tr><th align="right">下载地址</th></tr></thead><tbody><tr><td align="right"><a href="https://github.com/BackRer/QQPlugins/releases/tag/plugins">https://github.com/BackRer/QQPlugins/releases/tag/plugins</a> 更新慢</td></tr><tr><td align="right"><a href="https://pan.baidu.com/s/1AuXWI_ktuYEIKuueT9sfyw">https://pan.baidu.com/s/1AuXWI_ktuYEIKuueT9sfyw</a> 提取码：omva 更新快</td></tr></tbody></table><h3 id="安装方法"><a href="#安装方法" class="headerlink" title="安装方法"></a>安装方法</h3><p>下载好插件放入&#x2F;plugins内重启服务器即可.</p><hr><h3 id="简介-amp-用法"><a href="#简介-amp-用法" class="headerlink" title="简介&amp;用法"></a>简介&amp;用法</h3><p>JoinGiftItem是一款可以在玩家不在线时给予物品的插件,可以自定义给予礼包。<br>指令:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rqs help</span><br></pre></td></tr></table></figure><p>玩家指令:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">myjoin help</span><br></pre></td></tr></table></figure><p>即可查看全部用法.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">§6==========§b[§cRconQQShop§b]§6==========</span><br><span class="line">§a/rqs getItem §c获取手中物品英文id</span><br><span class="line">§6==========§b[§cItem§b]§6==========</span><br><span class="line">§a/rqs help §c查看帮助指令</span><br><span class="line">§a/rqs addItem [id] [物品英文id] §c给予一名玩家待领取物品</span><br><span class="line">§a/rqs listItem [id] §c列出一名玩家当前待领取物品</span><br><span class="line">§a/rqs removeItem [id] [物品英文id] §c删除一名玩家待领取物品</span><br><span class="line">§a/rqs clearItem [id] §c删除一名玩家所有待领取物品</span><br><span class="line">§6==========§b[§cGift§b]§6==========</span><br><span class="line">§a/rqs gift §c打开现有礼包</span><br><span class="line">§a/rqs gift [礼包名称] §c打开指定礼包</span><br><span class="line">§a/rqs giftAdd [id] [礼包代码] §c给指定玩家添加一个礼包</span><br><span class="line">§a/rqs giftdelete [id] [礼包代码] §c删除一名玩家的特定礼包</span><br><span class="line">§a/rqs giftlist [id] §c列出当前玩家的所有礼包</span><br><span class="line">§a/rqs giftclear [id] §c删除当前玩家的所有礼包</span><br></pre></td></tr></table></figure><hr><h4 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rqs addItem BackRer BOW</span><br></pre></td></tr></table></figure><p><strong>这里物品<code>id</code>一定要用英文的,如果不知道英文id多少可以手持物品输入<code>/rqs getitem</code>来获取英文<code>id</code>.</strong><br><img src="/./img/JoinGiftItem/1.png"><br>这样当玩家上线时就会提醒玩家有一个要领取.</p><hr><h4 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h4><p><code>config.yml</code>内包含了汉化信息和标题的配置.(不要问我为什么把汉化也放在config了)</p><hr><h5 id="修改提示信息"><a href="#修改提示信息" class="headerlink" title="修改提示信息"></a>修改提示信息</h5><p>在<code>config.yml</code>中找到<code>JoinMessage</code>进行修改.<br>这里<code>/item_list_size/</code>代表有多少个待领取物品数量，<code>/gift_list_siez</code>代表有多少个待领取礼包数量.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">JoinMessage:</span><br><span class="line">  - &quot;§b----------------------------&quot;</span><br><span class="line">  - &quot;§c您当前有§d /item_list_size/ §c个物品等待你领取！&quot;</span><br><span class="line">  - &quot;§b/gift_list_size/个礼包待你领取！&quot;</span><br><span class="line">  - &quot;§b----------------------------&quot;</span><br></pre></td></tr></table></figure><hr><h5 id="gift-yml文件配置"><a href="#gift-yml文件配置" class="headerlink" title="gift.yml文件配置"></a>gift.yml文件配置</h5><p><del>在这里我画个大饼,下一个版本或许会支持gui配置。</del></p><h1 id="Gift为头标题请勿修改"><a href="#Gift为头标题请勿修改" class="headerlink" title="Gift为头标题请勿修改."></a><code>Gift</code>为头标题请勿修改.</h1><h1 id="Text为礼包代号用于rqs-giftAdd-id-礼包代码-中的礼包代号-lore为这个礼包的描述信息-Item为这个礼包的所有的物品Item格式"><a href="#Text为礼包代号用于rqs-giftAdd-id-礼包代码-中的礼包代号-lore为这个礼包的描述信息-Item为这个礼包的所有的物品Item格式" class="headerlink" title="Text为礼包代号用于rqs giftAdd [id] [礼包代码] 中的礼包代号.lore为这个礼包的描述信息.Item为这个礼包的所有的物品Item格式"></a><code>Text</code>为礼包代号用于rqs giftAdd [id] [礼包代码] 中的礼包代号.<br><code>lore</code>为这个礼包的描述信息.<br><code>Item</code>为这个礼包的所有的物品<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">Gift:</span><br><span class="line">  Text:</span><br><span class="line">    name: Demo</span><br><span class="line">    lore: &amp;id005</span><br><span class="line">    - lore1</span><br><span class="line">    - lore2</span><br><span class="line">    - lore1</span><br><span class="line">    - lore2</span><br><span class="line">    Item:</span><br><span class="line">      Item1:</span><br><span class="line">        mate: BOW</span><br><span class="line">        displayname: This A BOW!</span><br><span class="line">        size: 1</span><br><span class="line">        lore: *id005</span><br><span class="line">      Item2:</span><br><span class="line">        mate: BOW</span><br><span class="line">        displayname: This A BOW Two!</span><br><span class="line">        size: 1</span><br><span class="line">        lore: *id005</span><br></pre></td></tr></table></figure><br><code>Item</code>格式</h1><p><code>mate</code>为物品英文id<br><code>displayname</code>为物品的显示名称<br><code>size</code>物品数量<br><code>lore</code> 为物品描述,可配置多行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">Item:</span><br><span class="line">  Item1:</span><br><span class="line">    mate: BOW</span><br><span class="line">    displayname: This A BOW!</span><br><span class="line">    size: 1</span><br><span class="line">    lore: []</span><br></pre></td></tr></table></figure><hr><h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><h4 id="2022-x2F-8-x2F-4"><a href="#2022-x2F-8-x2F-4" class="headerlink" title="2022&#x2F;8&#x2F;4"></a>2022&#x2F;8&#x2F;4</h4><p>新增指令:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/myjoin bind 查看/创建code码&quot;</span><br><span class="line">/myjoin binds 强制更新自己的code码&quot;</span><br><span class="line">================================</span><br><span class="line">/rqs bind [id] [code] 强制修改一名玩家的code&quot;</span><br><span class="line">/rqs binds [id] 查看一名玩家的code&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+          <category> MC </category>
+          
+          <category> 插件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 推荐 </tag>
+            
+            <tag> 插件 </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> MC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人软件推荐</title>
+      <link href="/posts/ace67eb8.html"/>
+      <url>/posts/ace67eb8.html</url>
+      
+        <content type="html"><![CDATA[<p><strong>仅个人意见！</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">仅仅是个人推荐！</span><br></pre></td></tr></table></figure><hr><h1 id="1-bandzip"><a href="#1-bandzip" class="headerlink" title="1.bandzip"></a>1.bandzip</h1><p>官方网址<a href="https://www.bandisoft.com/">BandZip</a><br><img src="http://www.bandisoft.com/bandizip/screenshots/imgs.cn/01.png"><br>“Bandizip” 是一款压缩软件，它支持WinZip、7-Zip 和 WinRAR 以及其它压缩格式。它拥有非常快速的压缩和解压缩的算法，适用于多核心压缩、快速拖放、高速压缩等功能。软件授权： 免费软件（家庭和办公室 100% 免费）。支持压缩: ZIP, 7Z(lzma2), ZIPX(xz), EXE(sfx), TAR, TGZ, LZH(lh7), ISO(joliet), GZ, XZ。支持解压缩: 7Z, ACE, AES, ALZ, ARJ, BH, BIN, BZ, BZ2, CAB, Compound(MSI), EGG, GZ, IMG, ISO, ISZ, LHA, LZ, LZH, LZMA, PMA, RAR, RAR5, SFX(EXE), TAR, TBZ, TBZ2, TGZ, TLZ, TXZ, UDF, WIM, XPI, XZ, Z, ZIP, ZIPX, ZPAQ, ZSTD, BR, NSIS。      by-百科<br>以上内容来源于百科,对我而言我从开始学编程时候就在用bandzip,虽然7zip解压压缩速度会更快,但已经习惯了bandzip。</p><h1 id="2-网易云"><a href="#2-网易云" class="headerlink" title="2.网易云"></a>2.网易云</h1><p>官方网站<a href="https://music.163.com/">网易云</a><br><img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg3.chinadaily.com.cn%2Fimages%2F201908%2F09%2F5d4d3121a31099ab43cdd3b5.jpeg&refer=http%3A%2F%2Fimg3.chinadaily.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661254180&t=629e8e952a5ce2305a7865a54545b37d"><br>没太多可说的,目前为止比较好的一个音乐软件。(网抑云！)</p><h1 id="3-Visual-Studio-Code"><a href="#3-Visual-Studio-Code" class="headerlink" title="3.Visual Studio Code"></a>3.Visual Studio Code</h1><p>官方网站<a href="https://code.visualstudio.com/">Visual Studio Code</a><br><img src="https://code.visualstudio.com/assets/docs/editor/intellisense/intellisense.gif"><br>Visual Studio Code（简称“VS Code” [1]  ）是Microsoft在2015年4月30日Build开发者大会上正式宣布一个运行于 Mac OS X、Windows和 Linux 之上的，针对于编写现代Web和云应用的跨平台源代码编辑器， [2]  可在桌面上运行，并且可用于Windows，macOS和Linux。它具有对JavaScript，TypeScript和Node.js的内置支持，并具有丰富的其他语言（例如C++，C＃，Java，Python，PHP，Go）和运行时（例如.NET和Unity）扩展的生态系统。         by-百科</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 推荐 </tag>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 颜色 */:root {  --anzhiyu-theme-op: #4259ef23;  --anzhiyu-gray-op: #9999992b;  --anzhiyu-theme-top: var(--anzhiyu-theme);  --anzhiyu-white: #fff;  --anzhiyu-white-op: rgba(255, 255, 255, 0.2);  --anzhiyu-black: #000;  --anzhiyu-black-op: rgba(0, 0, 0, 0.2);  --anzhiyu-none: rgba(0, 0, 0, 0);  --anzhiyu-gray: #999999;  --anzhiyu-yellow: #ffc93e;  --anzhiyu-border-radius: 8px;  --anzhiyu-main: var(--anzhiyu-theme);  --anzhiyu-main-op: var(--anzhiyu-theme-op);  --anzhiyu-shadow-theme: 0 8px 12px -3px var(--anzhiyu-theme-op);  --anzhiyu-shadow-main: 0 8px 12px -3px var(--anzhiyu-main-op);  --anzhiyu-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);  --anzhiyu-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);  --anzhiyu-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);  --anzhiyu-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);  --anzhiyu-shadow-red: 0 8px 12px -3px #ee7d7936;  --anzhiyu-shadow-green: 0 8px 12px -3px #87ee7936;  --anzhiyu-shadow-border: 0 8px 16px -4px #2c2d300c;  --anzhiyu-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);  --anzhiyu-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);  --style-border: 1px solid var(--anzhiyu-card-border);  --anzhiyu-blue-main: #3b70fc;  --style-border-hover: 1px solid var(--anzhiyu-main);  --style-border-dashed: 1px dashed var(--anzhiyu-theme-op);  --style-border-avatar: 4px solid var(--anzhiyu-background);  --style-border-always: 1px solid var(--anzhiyu-card-border);  --anzhiyu-white-acrylic1: #fefeff !important;  --anzhiyu-white-acrylic2: #fcfdff !important;  --anzhiyu-black-acrylic2: #08080a !important;  --anzhiyu-black-acrylic1: #0b0b0e !important;  --anzhiyu-main-none: #b8b8b800 !important;}[data-theme="light"] {  --anzhiyu-theme: #3b70fc;  --anzhiyu-theme-op: #4259ef23;  --anzhiyu-blue: #3b70fc;  --anzhiyu-red: #d8213c;  --anzhiyu-pink: #ff7c7c;  --anzhiyu-green: #57bd6a;  --anzhiyu-fontcolor: #363636;  --anzhiyu-background: #f7f9fe;  --anzhiyu-reverse: #000;  --anzhiyu-maskbg: rgba(255, 255, 255, 0.6);  --anzhiyu-maskbgdeep: rgba(255, 255, 255, 0.85);  --anzhiyu-hovertext: var(--anzhiyu-theme);  --anzhiyu-ahoverbg: #f7f7fa;  --anzhiyu-lighttext: var(--anzhiyu-main);  --anzhiyu-secondtext: rgba(60, 60, 67, 0.6);  --anzhiyu-scrollbar: rgba(60, 60, 67, 0.4);  --anzhiyu-card-btn-bg: #edf0f7;  --anzhiyu-post-blockquote-bg: #fafcff;  --anzhiyu-post-tabs-bg: #f2f5f8;  --anzhiyu-secondbg: #edf0f7;  --anzhiyu-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);  --anzhiyu-card-bg: #fff;  --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);  --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);  --anzhiyu-card-border: #c0c6d8;}[data-theme="dark"] {  --global-bg: #191919;  --anzhiyu-theme: #0084ff;  --anzhiyu-theme-op: #0084ff23;  --anzhiyu-blue: #0084ff;  --anzhiyu-red: #ff3842;  --anzhiyu-pink: #ff7c7c;  --anzhiyu-green: #57bd6a;  --anzhiyu-fontcolor: #f7f7fa;  --anzhiyu-background: #18171d;  --anzhiyu-reverse: #fff;  --anzhiyu-maskbg: rgba(0, 0, 0, 0.6);  --anzhiyu-maskbgdeep: rgba(0, 0, 0, 0.85);  --anzhiyu-hovertext: #0a84ff;  --anzhiyu-ahoverbg: #fff;  --anzhiyu-lighttext: #f2b94b;  --anzhiyu-secondtext: #a1a2b8;  --anzhiyu-scrollbar: rgba(200, 200, 223, 0.4);  --anzhiyu-card-btn-bg: #30343f;  --anzhiyu-post-blockquote-bg: #000;  --anzhiyu-post-tabs-bg: #121212;  --anzhiyu-secondbg: #30343f;  --anzhiyu-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);  --anzhiyu-card-bg: #1d1b26;  --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);  --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);  --anzhiyu-card-border: #42444a;}/*哔哩哔哩视频适配*/.aspect-ratio {    position: relative;    width: 100%;    height: 0;    padding-bottom: 75%;    margin: 3% auto;    text-align: center;  }  .aspect-ratio iframe {    position: absolute;    width: 100%;    height: 100%;    left: 0;    top: 0;  }/* 文章页H1-H6图标样式效果 */h1::before,h2::before,h3::before,h4::before,h5::before,h6::before {  -webkit-animation: ccc 1.6s linear infinite;  animation: ccc 1.6s linear infinite;}@-webkit-keyframes ccc {  0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg);  }  to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn);  }}@keyframes ccc {  0% {    -webkit-transform: rotate(0deg);    transform: rotate(0deg);  }  to {    -webkit-transform: rotate(-1turn);    transform: rotate(-1turn);  }}#content-inner.layout h1::before {  color: #ef50a8;  margin-left: -1.55rem;  font-size: 1.3rem;  margin-top: -0.23rem;}#content-inner.layout h2::before {  color: #fb7061;  margin-left: -1.35rem;  font-size: 1.1rem;  margin-top: -0.12rem;}#content-inner.layout h3::before {  color: #ffbf00;  margin-left: -1.22rem;  font-size: 0.95rem;  margin-top: -0.09rem;}#content-inner.layout h4::before {  color: #a9e000;  margin-left: -1.05rem;  font-size: 0.8rem;  margin-top: -0.09rem;}#content-inner.layout h5::before {  color: #57c850;  margin-left: -0.9rem;  font-size: 0.7rem;  margin-top: 0rem;}#content-inner.layout h6::before {  color: #5ec1e0;  margin-left: -0.9rem;  font-size: 0.66rem;  margin-top: 0rem;}#content-inner.layout h1:hover,#content-inner.layout h2:hover,#content-inner.layout h3:hover,#content-inner.layout h4:hover,#content-inner.layout h5:hover,#content-inner.layout h6:hover {  color: #3b70fc;}#content-inner.layout h1:hover::before,#content-inner.layout h2:hover::before,#content-inner.layout h3:hover::before,#content-inner.layout h4:hover::before,#content-inner.layout h5:hover::before,#content-inner.layout h6:hover::before {  color: #3b70fc;  -webkit-animation: ccc 3.2s linear infinite;  animation: ccc 3.2s linear infinite;}.pace {  -webkit-pointer-events: none;  pointer-events: none;  -webkit-user-select: none;  -moz-user-select: none;  user-select: none;  z-index: 2000;  position: fixed;  margin: auto;  top: 10px;  left: 0;  right: 0;  height: 8px;  border-radius: 8px;  width: 4rem;  background: #eaecf2;  border: 1px #e3e8f7;  overflow: hidden;}.pace-inactive .pace-progress {  opacity: 0;  transition: 0.3s ease-in;}.pace .pace-progress {  -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  -ms-box-sizing: border-box;  -o-box-sizing: border-box;  box-sizing: border-box;  -webkit-transform: translate3d(0, 0, 0);  -moz-transform: translate3d(0, 0, 0);  -ms-transform: translate3d(0, 0, 0);  -o-transform: translate3d(0, 0, 0);  transform: translate3d(0, 0, 0);  max-width: 200px;  position: absolute;  z-index: 2000;  display: block;  top: 0;  right: 100%;  height: 100%;  width: 100%;  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  animation: gradient 1.5s ease infinite;  background-size: 200%;}.pace.pace-inactive {  opacity: 0;  transition: 0.3s;  top: -8px;}@keyframes gradient {  0% {    background-position: 0% 50%;  }  50% {    background-position: 100% 50%;  }  100% {    background-position: 0% 50%;  }}/* tags样式 */#aside-content .card-tag-cloud a {  color: var(--anzhiyu-fontcolor) !important;  font-size: 1.05rem !important;  border-radius: 8px;  display: inline-block;  margin-right: 4px;}#aside-content .card-tag-cloud a:hover {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-white) !important;  box-shadow: var(--anzhiyu-shadow-theme);}@media screen and (min-width: 1300px) {  #aside-content .card-tag-cloud a:hover {    transform: scale(1.03);  }  #aside-content .card-tag-cloud a:active {    transform: scale(0.97);  }}#aside-content .card-tag-cloud a sup {  opacity: 0.4;  margin-left: 2px;}#aside-content > .card-widget.card-info {  background: linear-gradient(-45deg, var(--anzhiyu-main), #031764, #150136, #67044d);  background-size: 400%;  box-shadow: var(--anzhiyu-shadow-black);  animation: gradient 15s ease infinite;  position: relative;  color: var(--anzhiyu-white);}.site-data > a .headline,.site-data > a .length-num {  color: var(--anzhiyu-white);}/*深度魔改*//* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: "ZhuZiAYuanJWD";}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: "iconfont" !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span {  color: #f2b94b;}.bangumi-info-item em {  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: rgba(255, 255, 255, 0.9);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: rgba(255, 255, 255, 0.9);}/* 文章页面正文背景 */div#post {  background: rgba(255, 255, 255, 0.9);}/* 分页页面 */div#page {  background: rgba(255, 255, 255, 0.9);}/* 归档页面 */div#archive {  background: rgba(255, 255, 255, 0.9);}/* 标签页面 */div#tag {  background: rgba(255, 255, 255, 0.9);}/* 分类页面 */div#category {  background: rgba(255, 255, 255, 0.9);}/*夜间模式伪类遮罩层透明*/[data-theme="dark"] #recent-posts > .recent-post-item {  background: #121212;}[data-theme="dark"] .card-widget {  background: #121212 !important;}[data-theme="dark"] div#post {  background: #121212 !important;}[data-theme="dark"] div#tag {  background: #121212 !important;}[data-theme="dark"] div#archive {  background: #121212 !important;}[data-theme="dark"] div#page {  background: #121212 !important;}[data-theme="dark"] div#category {  background: #121212 !important;}[data-theme="dark"] div#category {  background: transparent !important;}/* 页脚透明 */#footer {  background: transparent !important;}/* 头图透明 *//* #page-header {  background: transparent !important;} */#rightside > div > button {  border-radius: 5px;}/* 滚动条 */::-webkit-scrollbar {  width: 10px;  height: 10px;}::-webkit-scrollbar-thumb {  background-color: #3b70fc;  border-radius: 2em;}::-webkit-scrollbar-corner {  background-color: transparent;}::-moz-selection {  color: #fff;  background-color: #3b70fc;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;  /* 默认情况下缩进左侧66px，只留一点箭头部分 */}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* 鼠标图标 */body {  cursor: url("/img/x1.cur"), auto;}a,[type="button"]:not(:disabled),[type="reset"]:not(:disabled),[type="submit"]:not(:disabled),button:not(:disabled) {  cursor: url("/img/x2.cur"), auto !important;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #3b70fc;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--anzhiyu-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
+      
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = "w(ﾟДﾟ)w 不要走！再看看嘛！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+  
+</search>
