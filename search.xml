@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>模组&amp;插件制作进度</title>
+      <link href="/2023/06/27/McModMade/"/>
+      <url>/2023/06/27/McModMade/</url>
+      
+        <content type="html"><![CDATA[<p>待填写</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Minecraft </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Minecraft </tag>
+            
+            <tag> Forge </tag>
+            
+            <tag> Bukkit </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>front-matter详解</title>
+      <link href="/2023/06/27/front-matter/"/>
+      <url>/2023/06/27/front-matter/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>写法</th><th align="center">解释</th></tr></thead><tbody><tr><td>title</td><td align="center">【必需】文章标题</td></tr><tr><td>date</td><td align="center">【必需】文章创建日期</td></tr><tr><td>updated</td><td align="center">【可选】文章更新日期</td></tr><tr><td>tags</td><td align="center">【可选】文章标签</td></tr><tr><td>categories</td><td align="center">【可选】文章分类</td></tr><tr><td>keywords</td><td align="center">【可选】文章关键字</td></tr><tr><td>description</td><td align="center">【可选】文章描述</td></tr><tr><td>top_img</td><td align="center">【可选】文章顶部图片</td></tr><tr><td>cover</td><td align="center">【可选】文章缩略图(如果没有设置 top_img,文章页顶部将显示缩略图，可设为 false&#x2F;图片地址&#x2F;留空)</td></tr><tr><td>comments</td><td align="center">【可选】显示文章评论模块(默认 true)</td></tr><tr><td>toc</td><td align="center">【可选】显示文章 TOC(默认为设置中 toc 的 enable 配置)</td></tr><tr><td>toc_number</td><td align="center">【可选】显示 toc_number(默认为设置中 toc 的 number 配置)</td></tr><tr><td>toc_style_simple</td><td align="center">【可选】显示 toc 简洁模式</td></tr><tr><td>copyright</td><td align="center">【可选】显示文章版权模块(默认为设置中 post_copyright 的 enable 配置)</td></tr><tr><td>copyright_author</td><td align="center">【可选】文章版权模块的文章作者</td></tr><tr><td>copyright_author_href</td><td align="center">【可选】文章版权模块的文章作者链接</td></tr><tr><td>copyright_url</td><td align="center">【可选】文章版权模块的文章链接链接</td></tr><tr><td>copyright_info</td><td align="center">【可选】文章版权模块的版权声明文字</td></tr><tr><td>mathjax</td><td align="center">【可选】显示 mathjax(当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td>katex</td><td align="center">【可选】显示 katex(当设置 katex 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td>aplayer</td><td align="center">【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置</td></tr><tr><td>highlight_shrink</td><td align="center">【可选】配置代码框是否展开(true&#x2F;false)(默认为设置中 highlight_shrink 的配置)</td></tr><tr><td>aside</td><td align="center">【可选】显示侧边栏 (默认 true)</td></tr><tr><td>swiper_index</td><td align="center">【可选】首页轮播图配置 index 索引，数字越小越靠前</td></tr><tr><td>top_group_index</td><td align="center">【可选】首页右侧卡片组配置, 数字越小越靠前</td></tr><tr><td>background</td><td align="center">【可选】文章背景可配置为 16 进制颜色值</td></tr></tbody></table><p>首页轮播图配置: <code>swiper_index</code>, 数字越小越靠前<br>首页卡片配置: <code>top_group_index</code>, 数字越小越靠前<br>page 中<code>background</code>, 可配置为 16 进制颜色值</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>text</title>
+      <link href="/2023/06/27/text/"/>
+      <url>/2023/06/27/text/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/06/27/hello-world/"/>
+      <url>/2023/06/27/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
