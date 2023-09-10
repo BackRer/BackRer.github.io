@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>BukkitCommands</title>
+      <link href="/2023/09/10/BukkitCommands/"/>
+      <url>/2023/09/10/BukkitCommands/</url>
+      
+        <content type="html"><![CDATA[<p>关于BukkitApi的指令补全代码写法.</p><h1 id="建议"><a href="#建议" class="headerlink" title="建议"></a>建议</h1><p>写好的一个方法,具体可以自己理解下代码,原理也很简单</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> List&lt;String&gt; <span class="title function_">filterByStartingLetter</span><span class="params">(String input, String... options)</span> &#123;</span><br><span class="line">        List&lt;String&gt; completions = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;&gt;();</span><br><span class="line">        <span class="keyword">for</span> (String option : options) &#123;</span><br><span class="line">            <span class="keyword">if</span> (option.toLowerCase().startsWith(input.toLowerCase())) &#123;</span><br><span class="line">                completions.add(option);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> completions;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>让指令的类继承TabCompleter接口,并且重写接口方法</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;String&gt; <span class="title function_">onTabComplete</span><span class="params">(CommandSender sender, Command command, String label, String[] args)</span> &#123;</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>这里就是tab补全的方法,可以用command.getName()获取当前输入的指令,来进行判断是否需要补全。<br>具体案例：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> List&lt;String&gt; <span class="title function_">onTabComplete</span><span class="params">(CommandSender sender, Command command, String label, String[] args)</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (command.getName().equalsIgnoreCase(<span class="string">&quot;isk&quot;</span>)) &#123;</span><br><span class="line">            <span class="keyword">if</span> (args.length == <span class="number">1</span>)&#123;</span><br><span class="line">                <span class="keyword">return</span> filterByStartingLetter(args[<span class="number">0</span>],<span class="string">&quot;kong&quot;</span>,<span class="string">&quot;reload&quot;</span>,<span class="string">&quot;help&quot;</span>);</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (args.length == <span class="number">2</span>) &#123;</span><br><span class="line">                <span class="keyword">if</span> (args[<span class="number">0</span>].equalsIgnoreCase(<span class="string">&quot;item&quot;</span>))&#123;</span><br><span class="line">                    <span class="type">ConfigurationSection</span> <span class="variable">baoshi</span> <span class="operator">=</span> FileYML.saic.getConfigurationSection(<span class="string">&quot;BaoShi&quot;</span>);</span><br><span class="line">                    Set&lt;String&gt; keys = baoshi.getKeys(<span class="literal">false</span>);</span><br><span class="line">                    <span class="keyword">return</span> filterByStartingLetter(args[<span class="number">1</span>],keys.toArray(<span class="keyword">new</span> <span class="title class_">String</span>[<span class="number">0</span>]));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure><p>1.这是一个比如我们输入了<code>/isk </code>就会出现<code>kong</code> <code>reload</code> <code>help</code>的指令补全提示<br>2.当指令长度达到2并且第二个指令是item<code>/isk item </code>就会将读取到的信息提示到补全内</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Minecraft </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Minecraft </tag>
+            
+            <tag> Bukkit </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>计划</title>
       <link href="/2023/07/13/plan/"/>
       <url>/2023/07/13/plan/</url>

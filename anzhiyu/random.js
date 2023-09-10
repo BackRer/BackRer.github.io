@@ -1,1 +1,1 @@
-var posts=["2023/07/03/JavaList/","2023/07/01/BukkitTools/","2023/07/01/BukkitApiCooldown/","2023/06/27/McModMade/","2023/06/27/front-matter/","2023/07/13/plan/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/07/01/BukkitApiCooldown/","2023/07/01/BukkitTools/","2023/07/03/JavaList/","2023/06/27/McModMade/","2023/06/27/front-matter/","2023/07/13/plan/","2023/09/10/BukkitCommands/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
