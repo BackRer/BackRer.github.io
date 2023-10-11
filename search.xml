@@ -12,6 +12,12 @@
       
       
       
+        <tags>
+            
+            <tag> 校内 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -24,6 +30,12 @@
         <content type="html"><![CDATA[<h3 id="html基础笔记"><a href="#html基础笔记" class="headerlink" title="html基础笔记"></a>html基础笔记</h3><h4 id="标签h1-h6"><a href="#标签h1-h6" class="headerlink" title="标签h1-h6"></a>标签h1-h6</h4><p>h1-h6是逐步递减关系如下:</p><div class="tabs" id="h1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#h1-1">代码</button></li><li class="tab"><button type="button" data-href="#h1-2">演示</button></li><li class="tab"><button type="button" data-href="#h1-3">关于H1-H6的属性</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="h1-1"><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>依次递减<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>依次递减<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span>&gt;</span>依次递减<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>依次递减<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h5</span>&gt;</span>依次递减<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">h6</span>&gt;</span>依次递减<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div><div class="tab-item-content" id="h1-2"><h1>依次递减</h1><h2>依次递减</h1><h3>依次递减</h1><h4>依次递减</h1><h5>依次递减</h1><h6>依次递减</h1><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div><div class="tab-item-content" id="h1-3"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">align 位置定位(center right left)</span><br><span class="line">color 颜色</span><br><span class="line">演示代码:</span><br><span class="line">&lt;h2 align=&quot;center&quot; color=&quot;red&quot;&gt;演示文本&lt;h1&gt;</span><br></pre></td></tr></table></figure><p>由于网页限制原因演示代码就不进行演示了,自行进行测试演示</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div></div><div class="tabs" id="今日"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#今日-1">图片</button></li><li class="tab"><button type="button" data-href="#今日-2">符号</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="今日-1"><p>关于图片:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;图片路径&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>这里的图片路径可以是网址也可以是本地路径,如:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;images/sports2.jpg&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>这个路径要是与html页面也就是代码网页在同意路径,images这个是文件夹sports2.jpg是图片的名称</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div><div class="tab-item-content" id="今日-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&amp;nbsp; 表示为空格</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div></div>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 校内 </tag>
+            
+        </tags>
       
     </entry>
     
