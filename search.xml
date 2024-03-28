@@ -4,6 +4,65 @@
   
     
     <entry>
+      <title>我的游戏瞬间</title>
+      <link href="/2024/03/28/gameL/"/>
+      <url>/2024/03/28/gameL/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 游戏,MC </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>思科笔记</title>
+      <link href="/2024/03/25/Lan/"/>
+      <url>/2024/03/25/Lan/</url>
+      
+        <content type="html"><![CDATA[<h2 id="交换机的命令操作模式主要包括"><a href="#交换机的命令操作模式主要包括" class="headerlink" title="交换机的命令操作模式主要包括"></a>交换机的命令操作模式主要包括</h2><ol><li>用户模式    Switch&gt;</li><li>特权模式    Switch#</li><li>全局配置模式 Switch(Config)#</li><li>端口模式     Switch(config-if)#</li></ol><h3 id="命令笔记"><a href="#命令笔记" class="headerlink" title="命令笔记"></a>命令笔记</h3><ol><li>进入特权模式（en）</li><li>进入全局配置模式（config f）</li><li>进入交换机端口试图模式（int f0&#x2F;1）</li><li>返回上一级模式（exit）</li><li>直接退回到特权模式（end）</li><li>帮助信息（如?,co?,copy?）</li><li>命令简写（如conf t）</li><li>命令自动补齐（Tab）</li><li>快捷键（ctrl+c,ctrl+z）</li><li>重启（Reload）</li><li>修改交换机名称（hostname X）</li><li>配置交换机端口参数（speed、duplex）</li><li>查看交换机版本信息（show version）</li><li>查看当前生效的配置信息（show run）</li><li>修改主机ip（ip add ip地址 子网掩码）</li><li>保存（write）</li><li>启动端口命令（no shutdown）</li></ol><h3 id="案例-交换机的配置"><a href="#案例-交换机的配置" class="headerlink" title="案例-交换机的配置"></a>案例-交换机的配置</h3><blockquote><p>序言</p><ul><li>实验目标<ul><li>掌握采用telnet方式配置交换机的方法</li></ul></li><li>实验背景<ul><li>第一次在设备机房对交换机进行了初次的配置后，你希望以后在办公室或出差时也可以对设备进行远程管理，现要在交换机上做适当配置</li></ul></li></ul></blockquote><blockquote><p>技术原理</p><blockquote><ul><li>配置交换机的管理IP地址（计算机的IP地址与交换机管理IP地址在同一网段）</li><li>为telnet用户配置用户名和登录口令:<ul><li>交换机、路由器中有很多密码，设置好这些密码可以有效地提高设备安全性。<ul><li>switch(config)#enable password  设置进入特权模式的密码</li><li>switch(config-line) 可以设置通过console端口连接设备及telnet远程登陆时所需要的密码。<ul><li>Switch(config)#line console 0<ul><li>Switch(config-line)#password 5ijsj</li><li>Switch(config)#login</li><li>Switch(config)#line vty 0 4</li><li>Switch(config-line)#password 5ijsj</li><li>Switch(config)#login</li></ul></li></ul></li></ul></li></ul></li></ul></blockquote></blockquote><blockquote><p>实验步骤</p><ul><li>新建packettracer</li><li>配置交换机ip地址<ul><li>int vlan 1</li><li>ip add 192.168.1.1 255.255.255.0</li><li>no shutdown</li></ul></li><li>配置用户登录密码<ul><li>enable password ….</li><li>line vty 0 4</li><li>password 5ijsj</li><li>login</li></ul></li></ul></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MYSQL学习笔记</title>
+      <link href="/2024/03/20/mysql/"/>
+      <url>/2024/03/20/mysql/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一-SQL语句"><a href="#一-SQL语句" class="headerlink" title="一.SQL语句"></a>一.SQL语句</h3><p>n. -&gt; 数据库&#x2F;表名称<br>v. -&gt; 附加属性</p><table><thead><tr><th>附加属性</th><th align="center">解释</th></tr></thead><tbody><tr><td>null</td><td align="center">数据可空</td></tr><tr><td>notnull</td><td align="center">数据不可空</td></tr><tr><td>primary key</td><td align="center">设置主键</td></tr><tr><td>auto_increment</td><td align="center">自增</td></tr><tr><td>unique</td><td align="center">不能出现重复</td></tr></tbody></table><h4 id="1-数据库管理"><a href="#1-数据库管理" class="headerlink" title="1.数据库管理"></a>1.数据库管理</h4><p>create database n.; 创建数据库<br>drop database n.; 删除数据库<br>show databases; 查看所有数据库<br>use n.; 选择数据库</p><h4 id="2-数据表管理"><a href="#2-数据表管理" class="headerlink" title="2.数据表管理"></a>2.数据表管理</h4><p>创建数据表<br>create table n.(<br>    &#x2F;&#x2F;列信息<br>    字段名称 数据类型() v.,<br>    字段名称 数据类型() v.<br>);<br>drop table m.;删除表<br>show tables; 查询当前所有数据表<br>desc n.; 表类型</p><p><code>修改数据表结构，修改字段</code></p><table><thead><tr><th>命令</th><th align="center">解释</th></tr></thead><tbody><tr><td>alter table n. add 字段名称 数据类型</td><td align="center">新增字段</td></tr><tr><td>alter table n. change 旧字段名称 新字段名称 数据类型</td><td align="center">修改字段名称</td></tr><tr><td>alter table n. drop 字段名称</td><td align="center">删除字段</td></tr><tr><td>alter table n. alter column 字段名称 set v. 值</td><td align="center">修改字段附加属性</td></tr><tr><td>alter table n. modify 字段名称 数据类型 附加属性</td><td align="center">修改字段的类型以及附加属性</td></tr></tbody></table><h4 id="3-数据管理"><a href="#3-数据管理" class="headerlink" title="3.数据管理"></a>3.数据管理</h4><p>insert into n.(字段名称1,字段名称2,…) values(值1,值2,…),(值3,值4,…); 新增数据<br>insert into n. values(所有字段值); 新增字段</p><p>delete from n.; 删除表内所有数据<br>delete from n. where 字段名称 &#x3D; 值; 删除指定字段值的整行字段</p><p>update n. set 字段名称 &#x3D; 值,字段名称 &#x3D; 值,…;直接修改所有提供字段的值<br>update n. set 字段名称 &#x3D; 值,字段名称 &#x3D; 值,… where 字段名称 &#x3D; 值; 修改指定字段的值</p><p>select 字段,字段,… from n.; 查询来自n.的字段所有值<code>*表示所有字段</code><br>select 字段列表 from n. where 字段名称 &#x3D; 值; 指定查询</p><h4 id="4-主键"><a href="#4-主键" class="headerlink" title="4.主键"></a>4.主键</h4><p>表中的一个字段，该字段的值是每一行数据的唯一标识</p><p>默认情况，每张表都要有一个主键，也只能有一个主键</p><p>主键生成错略：代理主键，与业务无关的字段，仅仅是用来标识一行数据，一般定义为int类型</p><p>主键必须是唯一的</p><hr><hr><h3 id="二-数据类型"><a href="#二-数据类型" class="headerlink" title="二.数据类型"></a>二.数据类型</h3><h4 id="1-整数类型"><a href="#1-整数类型" class="headerlink" title="1.整数类型"></a>1.整数类型</h4><p><img src="/img/sql/int.png"></p><h4 id="2-小数类型"><a href="#2-小数类型" class="headerlink" title="2.小数类型"></a>2.小数类型</h4><p><img src="/img/sql/float.png"></p><h4 id="3-日期和时间类型"><a href="#3-日期和时间类型" class="headerlink" title="3.日期和时间类型"></a>3.日期和时间类型</h4><p><img src="/img/sql/time.png"></p><h4 id="4-字符串类型"><a href="#4-字符串类型" class="headerlink" title="4.字符串类型"></a>4.字符串类型</h4><p><img src="/img/sql/str.png"></p><h4 id="5-二进制类型"><a href="#5-二进制类型" class="headerlink" title="5.二进制类型"></a>5.二进制类型</h4><p><img src="/img/sql/00011.png"></p><hr><hr><h3 id="SQL函数"><a href="#SQL函数" class="headerlink" title="SQL函数"></a>SQL函数</h3><p>数学函数，日期函数，字符串函数，聚合函数<br>函数方法加在字段名称与表上<br>如下案例：</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> <span class="built_in">abs</span>(字段名称) <span class="keyword">from</span> n.;</span><br></pre></td></tr></table></figure><h4 id="数学函数"><a href="#数学函数" class="headerlink" title="数学函数"></a>数学函数</h4><p>绝对值<code>abs()</code><br>向下取整<code>floor()</code><br>向上取整<code>ceil()</code></p><h4 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h4><p>insert(s1,index,len,s2)<br>s1是目标字符串，index是下标(从1开始)，len上添加长度，s2是追加内容<br>upper()字母转大写<br>lower()字母转小写<br>left(s,len)返回s字符串前的len个字符<br>right(s,len)返回s字符串后的len个字符<br>substring(s,index,len)截取s字符串，从index开始，长度为len字符<br>reverse()反方向阅读</p><h4 id="日期函数"><a href="#日期函数" class="headerlink" title="日期函数"></a>日期函数</h4><p>curdate()获取日期函数<br>curtime()获取时间<br>now()获取当前时间<br>datediff(d1,d2)日期加n天后的日期<br>subdate(d,n)和上个方法相反</p><h4 id="聚合函数"><a href="#聚合函数" class="headerlink" title="聚合函数"></a>聚合函数</h4><p>count()根据某个字段统计总记录数<br>sum()计算某个字段值总和<br>avg()求某个字段值的值平均值<br>max()求某个字段值最大值<br>min()求某个字段值最小值</p><h4 id="特殊查询"><a href="#特殊查询" class="headerlink" title="特殊查询"></a>特殊查询</h4><h5 id="分组查询"><a href="#分组查询" class="headerlink" title="分组查询"></a>分组查询</h5><p>select 字段组 from n. group y 字段名称; 分组查询字段名称的字段值</p><h5 id="排序查询"><a href="#排序查询" class="headerlink" title="排序查询"></a>排序查询</h5><p>select * from n. order by 字段名称 desc; 降序查询字段值排序<br>select * from n. order by 字段名称 asc; 升序查询字段值排序</p><hr><hr><h3 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h3><p>执行运算符：加减乘除<br>比较运算符：大小等于 1为true 0为false<br>逻辑运算符：与或非<br>特殊运算符：is null判断空 between n and n在两者之间  in(区间)是否在这区间</p><p><code>like</code>模糊查询<br>select 字段组 from n. where name like ‘%值%’ 模糊查询值<br>%表示代表任意值</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python笔记一</title>
       <link href="/2023/10/23/python01/"/>
       <url>/2023/10/23/python01/</url>
